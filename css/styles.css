@@ -176,5 +176,31 @@ footer .copy{color:#8d8d8d;font-size:.82rem}
 .sp-sec:first-child{margin-top:0}
 body.sp-open{overflow:hidden}
 
+<<<<<<< HEAD
+=======
+/* ---------- zoom de fotos ---------- */
+.ph[data-zoom]{cursor:zoom-in}
+.ph[data-zoom]:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.zoomhint{position:absolute;right:8px;bottom:8px;width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;color:var(--ink);pointer-events:none}
+.lb{position:fixed;inset:0;z-index:60;background:#fff;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.lb-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px));border-bottom:1px solid var(--line)}
+.lb-code{font-size:.9rem;color:var(--ink-2);font-weight:500}
+.lb-x{width:var(--tap);height:var(--tap);border:0;border-radius:50%;background:var(--tile);font-size:1.7rem;line-height:1;cursor:pointer;color:var(--ink)}
+.lb-x:hover{background:#e8e8e8}
+.lb-stage{position:relative;flex:1;min-height:0;overflow:hidden;background:var(--tile);touch-action:none;cursor:zoom-in;user-select:none;-webkit-user-select:none}
+.lb-stage.zoomed{cursor:grab}
+.lb-img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transform-origin:50% 50%;will-change:transform;-webkit-user-drag:none;pointer-events:none}
+.lb-hint{margin:0;text-align:center;font-size:.85rem;color:var(--ink-2);padding:8px 16px 0}
+.lb-info{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding-block:12px 14px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.lb-txt{display:grid;gap:2px;min-width:0}
+.lb-txt b{font-size:1.05rem}
+.lb-txt span{color:var(--ink-2);font-variant-numeric:tabular-nums}
+.lb-txt strong{color:var(--ink)}
+.lb-txt em{font-style:normal;color:var(--deal);font-weight:600}
+.lb-info .ask{margin:0;padding:0 26px;flex:0 0 auto}
+@media (max-width:480px){.lb-info .ask{flex:1 1 100%}}
+@media (min-width:960px){.lb-stage{margin:16px auto 0;width:min(92vw,900px);border-radius:8px}}
+
+>>>>>>> 3cded1db02b0c7f585f99c3bb9d19e7cae5f1d0f
 @media (prefers-reduced-motion:reduce){.track{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 @media (max-width:359px){.brandmark span{font-size:1.1rem}.hdr .iconbtn{width:38px}}
