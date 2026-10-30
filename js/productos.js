@@ -28,7 +28,7 @@
 window.PRODUCTOS = [
   // ---------- ZAPATILLAS ----------
   { codigo: "Z01", seccion: "zapatillas", marca: "Nike", modelo: "Dunk", talle: "43", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z01.jpg", vendido: false },
-  { codigo: "Z02", seccion: "zapatillas", marca: "Nike", modelo: "Air Max", talle: "42", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z02.jpg", vendido: false },
+  { codigo: "Z02", seccion: "zapatillas", marca: "Nike", modelo: "Air Max", talle: "42", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z02.jpg", vendido: true },
   { codigo: "Z03", seccion: "zapatillas", marca: "Nike", modelo: "Air Force", talle: "45", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z03.jpg", vendido: false },
   { codigo: "Z04", seccion: "zapatillas", marca: "Nike", modelo: "Jordan 1", talle: "44.5", precioLista: 94443, descuento: 10, etiqueta: "", foto: "img/productos/Z04.jpg", vendido: false },
   { codigo: "Z05", seccion: "zapatillas", marca: "Nike", modelo: "SkateBoarding", talle: "41", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z05.jpg", vendido: false },
@@ -36,7 +36,7 @@ window.PRODUCTOS = [
   { codigo: "Z07", seccion: "zapatillas", marca: "Nike", modelo: "SkateBoarding", talle: "39", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z07.jpg", vendido: false },
   { codigo: "Z08", seccion: "zapatillas", marca: "Nike", modelo: "Dunk", talle: "42", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z08.jpg", vendido: false },
   { codigo: "Z09", seccion: "zapatillas", marca: "New Balance", modelo: "Fresh Foam", talle: "40", precioLista: 66666, descuento: 10, etiqueta: "", foto: "img/productos/Z09.jpg", vendido: false },
-  { codigo: "Z10", seccion: "zapatillas", marca: "Nike", modelo: "Air Max", talle: "41", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z010.jpg", vendido: false },
+  { codigo: "Z10", seccion: "zapatillas", marca: "Nike", modelo: "Air Max", talle: "41", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z010.jpg", vendido: true },
   { codigo: "Z11", seccion: "zapatillas", marca: "Lacoste", modelo: "L003 Evo", talle: "42", precioLista: 77777, descuento: 10, etiqueta: "", foto: "img/productos/Z011.jpg", vendido: false },
   { codigo: "Z12", seccion: "zapatillas", marca: "Nike", modelo: "Pegasus Plus", talle: "40", precioLista: 77777, descuento: 10, etiqueta: "", foto: "img/productos/Z012.jpg", vendido: false },
   { codigo: "Z13", seccion: "zapatillas", marca: "Nike", modelo: "Jordan 1", talle: "45", precioLista: 94443, descuento: 10, etiqueta: "", foto: "img/productos/Z013.jpg", vendido: false },
