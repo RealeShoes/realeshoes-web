@@ -59,7 +59,7 @@ window.PRODUCTOS = [
   { codigo: "Z30", seccion: "zapatillas", marca: "", modelo: "", talle: "", precioLista: null, descuento: null, etiqueta: "", foto: "", vendido: false },
 
   // ---------- BOTINES ----------
-  { codigo: "B01", seccion: "botines", marca: "Nike", modelo: "Mercurial", talle: "42", precioLista: 87499, descuento: 20, etiqueta: "", foto: "img/productos/B01.jpg", vendido: false },
+  { codigo: "B01", seccion: "botines", marca: "Nike", modelo: "Mercurial", talle: "42", precioLista: 87499, descuento: 20, etiqueta: "", foto: "img/productos/B01.jpg", vendido: true },
   { codigo: "B02", seccion: "botines", marca: "Nike", modelo: "Mercurial", talle: "45", precioLista: 87499, descuento: 20, etiqueta: "", foto: "img/productos/B02.jpg", vendido: false },
   { codigo: "B03", seccion: "botines", marca: "Nike", modelo: "Air Zoom", talle: "42", precioLista: 87499, descuento: 20, etiqueta: "", foto: "img/productos/B03.jpg", vendido: false },
   { codigo: "B04", seccion: "botines", marca: "", modelo: "", talle: "", precioLista: null, descuento: null, etiqueta: "", foto: "", vendido: false },
