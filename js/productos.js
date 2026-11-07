@@ -39,7 +39,7 @@ window.PRODUCTOS = [
   { codigo: "Z10", seccion: "zapatillas", marca: "Nike", modelo: "Air Max", talle: "41", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z010.jpg", vendido: true },
   { codigo: "Z11", seccion: "zapatillas", marca: "Lacoste", modelo: "L003 Evo", talle: "42", precioLista: 77777, descuento: 10, etiqueta: "", foto: "img/productos/Z011.jpg", vendido: false },
   { codigo: "Z12", seccion: "zapatillas", marca: "Nike", modelo: "Pegasus Plus", talle: "40", precioLista: 77777, descuento: 10, etiqueta: "", foto: "img/productos/Z012.jpg", vendido: false },
-  { codigo: "Z13", seccion: "zapatillas", marca: "Nike", modelo: "Jordan 1", talle: "45", precioLista: 94443, descuento: 10, etiqueta: "", foto: "img/productos/Z013.jpg", vendido: false },
+  { codigo: "Z13", seccion: "zapatillas", marca: "Nike", modelo: "Jordan 1", talle: "45", precioLista: 94443, descuento: 10, etiqueta: "", foto: "img/productos/Z013.jpg", vendido: true },
   { codigo: "Z14", seccion: "zapatillas", marca: "Nike", modelo: "Air Force", talle: "42", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z014.jpg", vendido: true },
   { codigo: "Z15", seccion: "zapatillas", marca: "Nike", modelo: "Air Force", talle: "44", precioLista: 94117, descuento: 15, etiqueta: "", foto: "img/productos/Z015.jpg", vendido: false },
   { codigo: "Z16", seccion: "zapatillas", marca: "Nike", modelo: "TN", talle: "41", precioLista: 94443, descuento: 10, etiqueta: "", foto: "img/productos/Z016.jpg", vendido: true },
